@@ -1,4 +1,4 @@
-# My SocialStack Project
+# Revise it
 
 This project is made with SocialStack. To start developing or running this project, you'll first need to install the dependencies. To learn more about the dependencies (and socialstack in general), take a look at the [developer getting started guide](https://source.socialstack.dev/documentation/guide/blob/master/DeveloperGuide/Readme.md).
 
