@@ -18,9 +18,9 @@ namespace Api.SentenceFillers
 		/// </summary>
 		public SentenceFillerService() : base(Events.SentenceFiller)
         {
-			// Example admin page install:
-			// InstallAdminPages("SentenceFillers", "fa:fa-rocket", new string[] { "id", "name" });
-		}
+            // Example admin page install:
+            InstallAdminPages("Questions: Gap Fill", "fa:fa-question-circle", new string[] { "id", "question" });
+        }
 	}
     
 }

@@ -18,8 +18,7 @@ namespace Api.Questions
 		/// </summary>
 		public QuestionService() : base(Events.Question)
         {
-			// Example admin page install:
-			// InstallAdminPages("Questions", "fa:fa-rocket", new string[] { "id", "name" });
+			InstallAdminPages("Question Configuration", "fa:fa-wrench", new string[] { "id", "name" });
 		}
 	}
     

@@ -18,9 +18,9 @@ namespace Api.Categories
 		/// </summary>
 		public CategoryService() : base(Events.Category)
         {
-			// Example admin page install:
-			// InstallAdminPages("Categories", "fa:fa-rocket", new string[] { "id", "name" });
-		}
+            // Example admin page install:
+            InstallAdminPages("Questions: Categories", "fa:fa-question-circle", new string[] { "id", "question" });
+        }
 	}
     
 }

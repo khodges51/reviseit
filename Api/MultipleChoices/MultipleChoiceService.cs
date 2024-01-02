@@ -18,9 +18,9 @@ namespace Api.MultipleChoices
 		/// </summary>
 		public MultipleChoiceService() : base(Events.MultipleChoice)
         {
-			// Example admin page install:
-			// InstallAdminPages("MultipleChoices", "fa:fa-rocket", new string[] { "id", "name" });
-		}
+            // Example admin page install:
+            InstallAdminPages("Questions: Multiple Choice", "fa:fa-question-circle", new string[] { "id", "question" });
+        }
 	}
     
 }

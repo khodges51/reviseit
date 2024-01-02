@@ -19,7 +19,7 @@ namespace Api.Phrases
 		public PhraseService() : base(Events.Phrase)
         {
 			// Example admin page install:
-			// InstallAdminPages("Phrases", "fa:fa-rocket", new string[] { "id", "name" });
+			InstallAdminPages("Answers", "fa:fa-book-open", new string[] { "id", "content" });
 		}
 	}
     

@@ -19,7 +19,7 @@ namespace Api.FreeTypes
 		public FreeTypeService() : base(Events.FreeType)
         {
 			// Example admin page install:
-			// InstallAdminPages("FreeTypes", "fa:fa-rocket", new string[] { "id", "name" });
+			InstallAdminPages("Questions: Free Type", "fa:fa-question-circle", new string[] { "id", "question" });
 		}
 	}
     
