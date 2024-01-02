@@ -13,8 +13,7 @@ namespace Api.SentenceFillers
 	/// </summary>
 	public partial class SentenceFiller : BaseQuestion
 	{
-
-		
-	}
+        // Implicit ListAs on SentenceFillerAnswer (called 'Asnwers')
+    }
 
 }

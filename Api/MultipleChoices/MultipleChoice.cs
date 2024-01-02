@@ -16,13 +16,7 @@ namespace Api.MultipleChoices
 	/// </summary>
 	public partial class MultipleChoice : BaseQuestion
 	{
-        /// <summary>
-        /// The correct answers
-        /// </summary>
-        [Module("Admin/MultiSelect")]
-        [Data("search", "content")]
-        [Data("contentType", "phrase")]
-        public List<Phrase> Answers;		
-	}
+        // Implicit ListAs on Phrase (called 'Asnwers')
+    }
 
 }

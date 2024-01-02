@@ -1,6 +1,7 @@
 using System;
 using Api.AutoForms;
 using Api.Database;
+using Api.MultipleChoices;
 using Api.Startup;
 using Api.Translate;
 using Api.Units;
@@ -13,7 +14,8 @@ namespace Api.Phrases
     /// <summary>
     /// A Phrase
     /// </summary>
-    [HasVirtualField("Unit", typeof(Unit), "UnitId")]
+    [ListAs("Asnwers", Explicit = true)]
+    [ImplicitFor("Asnwers", typeof(MultipleChoice))]
     public partial class Phrase : VersionedContent<uint>
 	{
         /// <summary>
@@ -21,12 +23,6 @@ namespace Api.Phrases
         /// </summary>
 		[Localized]
 		public string Content;
-
-		/// <summary>
-		/// The unit this phrase belongs too
-		/// </summary>
-        [Data("search", "Name")]
-        public uint UnitId;
     }
 
 }
