@@ -13,7 +13,7 @@ namespace Api.Categories
 	/// </summary>
 	public partial class Category : BaseQuestion
 	{
-        // Implicit ListAs on CategoryAnswer (called 'Asnwers')
+        // Implicit ListAs on CategoryAnswer (called 'CategoryAsnwers')
     }
 
 }

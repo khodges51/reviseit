@@ -16,8 +16,8 @@ namespace Api.CategoryAnswers
     /// A CategoryAnswer
     /// </summary>
     [HasVirtualField("Phrase", typeof(Phrase), "AnswerId")]
-    [ListAs("Asnwers", Explicit = true)]
-    [ImplicitFor("Asnwers", typeof(Category))]
+    [ListAs("CategoryAsnwers", Explicit = true)]
+    [ImplicitFor("CategoryAsnwers", typeof(Category))]
     public partial class CategoryAnswer : VersionedContent<uint>
 	{
         /// <summary>

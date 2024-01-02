@@ -16,8 +16,8 @@ namespace Api.SentenceFillerAnswers
     /// A SentenceFillerAnswer
     /// </summary>
     [HasVirtualField("Phrase", typeof(Phrase), "AnswerId")]
-    [ListAs("Asnwers", Explicit = true)]
-    [ImplicitFor("Asnwers", typeof(SentenceFiller))]
+    [ListAs("SentenceFillAsnwers", Explicit = true)]
+    [ImplicitFor("SentenceFillAsnwers", typeof(SentenceFiller))]
     public partial class SentenceFillerAnswer : VersionedContent<uint>
 	{
         /// <summary>
